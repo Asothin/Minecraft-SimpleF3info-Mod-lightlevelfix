@@ -26,7 +26,7 @@ public class mod_SimpleF3info extends BaseMod {
 			float rawHour = (minecraft1.theWorld.getCelestialAngle(1.0F) * 24.0F + 12.0F) % 24.0F;
 			int hour = MathHelper.floor_float(rawHour);
 			int min = MathHelper.floor_float(rawHour * 60F) - hour * 60;
-			minecraft1.fontRenderer.drawStringWithShadow("Light level: " + minecraft1.thePlayer.worldObj.getBlockLightValue(playerx, playery, playerz), 2, 96, 14737632);
+			minecraft1.fontRenderer.drawStringWithShadow("Light level: " + minecraft1.thePlayer.worldObj.getBlockLightValue(playerx, playery-1, playerz), 2, 96, 14737632);
 			minecraft1.fontRenderer.drawStringWithShadow("Biome: " + biome, 2, 104, 14737632);
 			minecraft1.fontRenderer.drawStringWithShadow("Seed: " + minecraft1.theWorld.getRandomSeed(), 2, 112, 14737632);
 			minecraft1.fontRenderer.drawStringWithShadow("Day: " + day, 2, 120, 14737632);
