@@ -1,4 +1,9 @@
-# SimpleF3info Mod
+# SimpleF3info Mod (Light Level Fix)
+### Fix Changes
+This is a fork of the SimpleF3info Mod: https://github.com/FarnGitHub/Minecraft-SimpleF3info-Mod
+
+The only change in this version compared to the original is the light level now shows the value at the player's feet, as opposed to the player head.
+
 ### Infomation
 A light weight mod for beta 1.7.3 that add more infomation to the debug screen
 
